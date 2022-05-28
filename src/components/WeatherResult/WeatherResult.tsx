@@ -1,8 +1,23 @@
-import React from "react";
+import { FC } from "react";
 import './WeatherResult.css';
 
-const WeatherForm = props => {
-    const {error, city, date, sunrise, sunset, temp, wind, pressure} = props.weather;
+interface WeatherProps {
+    date: string;
+    city: string,
+    sunrise: number,
+    sunset: number,
+    temp: string,
+    wind: string,
+    pressure: string,
+}
+
+interface Props {
+    weatherData: WeatherProps;
+    error: boolean
+}
+
+export const WeatherResult: FC<Props> = ({ error, weatherData}: Props) => {
+    const {city, date, sunrise, sunset, temp, wind, pressure} = weatherData;
 
     let content = null;
 
@@ -28,5 +43,3 @@ const WeatherForm = props => {
         </div>    
     )
 }
-
-export default WeatherForm;

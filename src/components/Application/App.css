@@ -2,7 +2,7 @@
   font-family: 'Roboto', sans-serif;
 }
 .app{
-  background: url('../../assets/images/bg.jpg');
+  background: url('../../assets/images/bg.jpeg');
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -21,4 +21,5 @@
 .app-container{
   display: flex;
   flex-direction: column;
+  
 }
