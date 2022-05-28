@@ -22,7 +22,7 @@ const App: FC = () => {
   const [ lastInputValue, setLastInputValue ] = useState('')
 
   const fetchWeather = (value: string) => {
-    const API = `http://api.openweathermap.org/data/2.5/weather?q=${inputValue}&APPID=${KEYApi}&units=metric`;
+    const API = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&APPID=${KEYApi}&units=metric`;
     
     fetch(API)
     .then(response => {
