@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tsWeatherApp/static/css/main.0b892480.chunk.css",
+    "main.js": "/tsWeatherApp/static/js/main.cba7a7f2.chunk.js",
+    "main.js.map": "/tsWeatherApp/static/js/main.cba7a7f2.chunk.js.map",
+    "runtime-main.js": "/tsWeatherApp/static/js/runtime-main.b8b0f27e.js",
+    "runtime-main.js.map": "/tsWeatherApp/static/js/runtime-main.b8b0f27e.js.map",
+    "static/js/2.3311f671.chunk.js": "/tsWeatherApp/static/js/2.3311f671.chunk.js",
+    "static/js/2.3311f671.chunk.js.map": "/tsWeatherApp/static/js/2.3311f671.chunk.js.map",
+    "static/js/3.82b6496a.chunk.js": "/tsWeatherApp/static/js/3.82b6496a.chunk.js",
+    "static/js/3.82b6496a.chunk.js.map": "/tsWeatherApp/static/js/3.82b6496a.chunk.js.map",
+    "index.html": "/tsWeatherApp/index.html",
+    "static/css/main.0b892480.chunk.css.map": "/tsWeatherApp/static/css/main.0b892480.chunk.css.map",
+    "static/js/2.3311f671.chunk.js.LICENSE.txt": "/tsWeatherApp/static/js/2.3311f671.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/tsWeatherApp/static/media/bg.7bf0b6fd.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8b0f27e.js",
+    "static/js/2.3311f671.chunk.js",
+    "static/css/main.0b892480.chunk.css",
+    "static/js/main.cba7a7f2.chunk.js"
+  ]
+}
